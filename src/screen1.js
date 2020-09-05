@@ -21,7 +21,7 @@ const Item = () => {
 const Screen1 = (props) => {
     //console.log(props.scrollY);
     return(
-        <View style={{flex : 1}}>
+        <View style={{flex : 1, marginTop : 15}}>
         <Animated.FlatList   
         data={[{key: 'a'}, {key: 'b'},{key: 'c'},{key: 'd'},{key: 'e'},{key: 'f'},{key: 'g'},{key: 'h'}]}
         renderItem={({item}) => <Item /> } 
